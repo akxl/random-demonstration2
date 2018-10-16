@@ -29,5 +29,6 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.springframework.boot:spring-boot-devtools")
-    testCompile("junit:junit")
+    testCompile("junit:junit:4.11")
+    testCompile group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
 }
